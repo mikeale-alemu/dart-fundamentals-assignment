@@ -18,3 +18,26 @@ for-in loop go through each value in the list one by one. It is easier when we o
 Q5
 
 If the list is empty the program will give error because there is no first element. To solve this we can check if the list is empty first and then return a default value or show message.
+
+
+
+Task 2 – Conceptual Questions (Version 2)
+Q6
+
+Synchronous function run step by step and finish before next line run. Asynchronous function can wait for something and continue later. In this program divide() is simple calculation so it is normal function, but computeAsync() wait for delay so it is async.
+
+Q7
+
+await tell the program to wait until the Future finish and give the result. If we forget await, the program will print something like Future instance instead of the real value.
+
+Q8
+
+The try-catch block help to handle errors. If someone try divide by zero the error will be caught and program will show message instead of stopping.
+
+Q9
+
+Throwing ArgumentError show clearly that the input value is wrong. Returning 0 is not good because it hide the real problem and user may think the result is correct.
+
+Q10
+
+The async keyword in main() allow us to use await. Without it we cannot wait for async functions easily and the program flow will be harder to manage.
