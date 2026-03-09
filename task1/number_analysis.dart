@@ -1,6 +1,5 @@
 // Task 1: Number Analysis App
 // Name: Mikeale Alemu
-// ID: ATE/3683/14
 
 // this function find the max number in the list
 int findMax(List<int> numbers) {
