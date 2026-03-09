@@ -21,7 +21,7 @@ If the list is empty the program will give error because there is no first eleme
 
 
 
-Task 2 – Conceptual Questions (Version 2)
+Task 2 – Conceptual Questions
 Q6
 
 Synchronous function run step by step and finish before next line run. Asynchronous function can wait for something and continue later. In this program divide() is simple calculation so it is normal function, but computeAsync() wait for delay so it is async.
